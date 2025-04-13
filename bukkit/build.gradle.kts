@@ -63,8 +63,8 @@ dependencies {
     compileOnly("com.github.LeonMangler:SuperVanish:6.2.19") {
         isTransitive = false
     }
-    implementation(files("libs/CMI9.0.0.0API.jar"))
-    implementation(files("libs/PermissionsEx-1.23.4.jar"))
+    compileOnly(files("libs/CMI9.0.0.0API.jar"))
+    compileOnly(files("libs/PermissionsEx-1.23.4.jar"))
     compileOnly(libs.netty.core)
 
     
