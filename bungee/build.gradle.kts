@@ -32,7 +32,7 @@ dependencies {
 	}
 }
 
-version = "2.3.5"
+version = "2.3.6-jatc251"
 
 tasks {
 	withType<JavaCompile> {
